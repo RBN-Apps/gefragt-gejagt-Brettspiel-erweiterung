@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/settings"
+        android:id="@+id/action_settings">
+    </item>
+
+    <item
+        android:title="@string/app_info_help"
+        android:id="@+id/action_appinfo">
+    </item>
+
+    <item
+        android:title="@string/github"
+        android:id="@+id/action_github">
+    </item>
+</menu>

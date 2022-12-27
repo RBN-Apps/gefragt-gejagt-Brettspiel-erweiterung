@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:src="@drawable/thomas_kinne"
+            android:layout_weight="2"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Der Quizdoktor"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Thomas Kinne"
+                />
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/quizdoktor_antwort"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:src="@drawable/keine_antwort"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:background="#a5a5a5"
+        android:layout_margin="1dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:src="@drawable/klaus_otto_nagorsnik"
+            android:layout_weight="2"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Der Bibliothekar"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Klaus Otto"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nagorsnik"
+                />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/bibliothekar_antwort"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:src="@drawable/keine_antwort"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:background="#a5a5a5"
+        android:layout_margin="1dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:src="@drawable/sebastian_klussmann"
+            android:layout_weight="2"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Der Besserwisser"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sebastian"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Klussmann"
+                />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/besserwisser_antwort"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:src="@drawable/keine_antwort"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:background="#a5a5a5"
+        android:layout_margin="1dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:src="@drawable/sebastian_jacoby"
+            android:layout_weight="2"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Der Quizgott"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sebastian Jacoby"
+                />
+
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/quizgott_antwort"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:src="@drawable/keine_antwort"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:background="#a5a5a5"
+        android:layout_margin="1dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:src="@drawable/manuel_hobiger"
+            android:layout_weight="2"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Der Quizvulkan"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Manuel Hobiger"
+                />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/quizvulkan_antwort"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:src="@drawable/keine_antwort"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/jaeger_beantwortung"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Liegen die Jäger richtig?">
+
+
+    </Button>
+
+
+</LinearLayout>
