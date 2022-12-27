@@ -5,8 +5,32 @@
     android:layout_height="match_parent"
     android:gravity="top"
     android:orientation="vertical"
-    android:layout_margin="20dp">
+    android:layout_margin="20dp"
 
+    >
+
+
+    <Switch
+        android:id="@+id/animation_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:text="Animation für die Antworten der Jäger"
+        android:checked="true"/>
+
+    <Switch
+        android:id="@+id/min_one_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:text="Mindestens ein Jäger soll falsch liegen" />
+
+    <Switch
+        android:id="@+id/exact_one_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:text="Genau ein Jäger soll falsch liegen" />
 
 
 
